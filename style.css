@@ -1,0 +1,13 @@
+nav li::after{
+  content: "|";
+  position: relative;
+  top: -2rem;
+}
+
+nav ul :first-child::after {
+  color: transparent;
+}
+
+.tabs ul {
+  border-bottom: 0;
+}
