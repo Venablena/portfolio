@@ -24,7 +24,7 @@
   <section>
     <nav class="tabs is-centered" >
       <ul>
-        <li class="is-active"><a href="#">Chronological Order</a></li>
+        <li class="is-active"><a href="#">All</a></li>
         <li><a href="#">CSS</a></li>
         <li><a href="#">JavaScript</a></li>
       </ul>
@@ -34,21 +34,33 @@
   <section class="section"> <!-- tiles -->
     <div class="tile is-ancestor">
       <div class="tile is-vertical is-8">
+        <div class="tile is-parent">
+          <article class="tile is-child notification is-danger">
+            <p class="title">Welcome
+              <span class="subtitle">to follow my journey at Galvanize!
+              </span>
+            </p>
+            <div class="content">
+              <p>This is a showcase of the projects I've made while studying web development.</p>
+              <p><em>This website was built using Bulma CSS framework.</em></p>
+            </div>
+          </article>
+        </div>
         <div class="tile">
           <div class="tile is-parent is-vertical">
             <article class="tile is-child notification is-primary">
-              <p class="title">Vertical...</p>
-              <p class="subtitle">Top tile</p>
+              <p class="title">JavaScript...</p>
+              <p class="subtitle"></p>
             </article>
             <article class="tile is-child notification is-warning">
-              <p class="title">...tiles</p>
-              <p class="subtitle">Bottom tile</p>
+              <p class="title">...goes here</p>
+              <p class="subtitle">In the future</p>
             </article>
           </div>
           <div class="tile is-parent">
             <article class="tile is-child notification is-info">
-              <p class="title">Middle tile</p>
-              <p class="subtitle">With an image</p>
+              <p class="title">Bootstrap</p>
+              <p class="subtitle">My design portfolio</p>
               <figure class="image is-4by3">
                 <img src="http://bulma.io/images/placeholders/640x480.png">
               </figure>
@@ -60,10 +72,26 @@
       <div class="tile is-parent">
         <article class="tile is-child notification is-success">
           <div class="content">
-            <p class="title">Tall tile</p>
-            <p class="subtitle">With even more content</p>
+            <p class="title">CSS</p>
+            <p class="subtitle">Nameplate</p>
             <div class="content">
-              <!-- Content -->
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img src="img/nameplate_screenshot.png" alt="Screenshot nameplate">
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="content">
+                    <p>Using CSS transitions on hover for animation.</p>
+                    <time datetime="2017-9-7">7 Sep 2017</time>
+                  </div>
+                  <footer class="card-footer">
+                    <a href="https://github.com/Venablena/nameplate" class="card-footer-item">View on Github</a>
+                    <a href="http://venablena-deploy-nameplate.surge.sh/" class="card-footer-item">View site</a>
+                  </footer>
+                </div>
+              </div>
             </div>
           </div>
         </article>
