@@ -1,10 +1,10 @@
 body {
   background-image: url(img/stripe_pattern.jpg);
+  padding: 2.5%;
 }
 
 main {
   background-color: rgba(255, 255, 255, 0.95);
-  margin: 0 2.5rem;
 }
 
 h1 {
