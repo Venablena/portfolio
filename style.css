@@ -1,3 +1,7 @@
+h1 {
+  font-family: 'Raleway';
+}
+
 nav li::after{
   content: "|";
   position: relative;
@@ -10,4 +14,26 @@ nav ul :first-child::after {
 
 .tabs ul {
   border-bottom: 0;
+}
+
+.content figure {
+  margin: 0;
+}
+
+.card-footer {
+  background-color: LightSeaGreen;
+  color: white;
+}
+
+.card-footer :hover {
+  background-color: LightGreen;
+}
+
+.card-footer a {
+  text-decoration: none !important;
+  font-weight: bolder;
+}
+
+.tile-header {
+  padding: 1.25rem;
 }
