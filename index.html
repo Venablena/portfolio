@@ -6,7 +6,7 @@
     <title>Lena Venable Portfolio</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.2/css/bulma.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Quicksand" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
@@ -34,101 +34,201 @@
 
       <section class="section"> <!-- tiles -->
         <div class="tile is-ancestor">
-          <div class="tile is-vertical is-8">
-            <div class="tile is-parent">
-              <article class="tile is-child notification is-danger">
-                <p class="title">Welcome
-                  <span class="subtitle">to follow my journey at Galvanize!
-                  </span>
-                </p>
-                <div class="content is-size-5">
-                  <h4>This is a showcase of the projects I've made while studying web development.</h4>
-                  <p>This website was built using Bulma CSS framework. I will update it as new projects come along. To view my client work, check out <a href="http://www.venablena.com">this link.</a></p>
-                </div>
-              </article>
-            </div>
+          <div class="tile is-vertical is-9">
             <div class="tile">
-              <div class="tile is-parent is-vertical">
-                <article class="tile is-child notification is-info">
-                  <p class="title">CSS: Bootstrap</p>
-                  <p class="subtitle">My design portfolio</p>
-                  <footer class="card-footer is-dark">
-                    <a href="http://venablena.com" class="card-footer-item">View site</a>
-                  </footer>
-                </article>
-                <article class="tile is-child notification is-warning">
-                  <p class="title">...more here</p>
-                  <p class="subtitle">In the future</p>
-                </article>
-              </div>
-
-              <div class="tile is-parent">
-                <article class="tile is-child notification is-dark is-paddingless">
-                  <div class="tile-header">
-                    <p class="title">CSS</p>
-                    <p class="subtitle">Nameplate</p>
-                  </div>
+              <div class="tile is-vertical">
+                <div class="tile is-parent">
+                  <article class="tile is-child notification is-dark">
+                    <p class="title">Welcome
+                      <span class="subtitle">to follow my journey into web development!
+                      </span>
+                    </p>
                     <div class="content">
-                      <div class="card">
-                        <div class="card-image">
-                          <!-- <figure class="image is-4by3"> -->
-                            <img src="img/nameplate_screenshot.png" alt="Screenshot nameplate">
-                          <!-- </figure> -->
-                        </div>
-                        <div class="card-content">
-                          <div class="content">
-                            <ul class="is-size-5">
-                              <li>CSS transitions for an animation effect on hover</li>
-                              <li>Percentage-based responsive layout <span><small>(note to self: finish this soon..?)</small></span></li>
-                            </ul>
-                            <time datetime="2017-9-7">7 Sep 2017</time>
-                          </div>
-                        </div>
-                        <footer class="card-footer">
-                          <a href="https://github.com/Venablena/nameplate" class="card-footer-item">View on Github</a>
-                          <a href="http://venablena-deploy-nameplate.surge.sh/" class="card-footer-item">View site</a>
-                        </footer>
-                      </div>
+                      <p>Here are some of the projects I've made as Galvanize student.</p>
+                      <p class="title">
+                        <span class="subtitle">To view my client-facing and product design work, check out <a href="http://www.venablena.com">this link.</a></span>
+                      </p>
                     </div>
-                </article>
+                    <div class="is-pulled-right">
+                      This site was made using Bulma CSS framework.
+                    </div>
+                  </article>
+                </div>
+                <div class="tile">
+                  <div class="tile is-parent">
+                    <article class="tile is-child notification is-white is-paddingless">
+                      <div class="card">
+                        <div class="tile-header notification is-dark">
+                          <p class="title">JS & Google Maps API</p>
+                          <p class="subtitle">"Put a Pin on It"</p>
+                        </div>
+                          <div class="content">
+                            <div class="card-image">
+                              <img src="img/screenshot-tracker.jpg" alt="Screenshot tracker">
+                            </div>
+                            <div class="card-content">
+                              <p>
+                                Fullstack web app to display information gathered from a wearable tracker.
+                                <ul>
+                                  <li>displays user-logged locations on a map interface</li>
+                                  <li>connects to a server and a database with Ajax</li>
+                                  <li>MVC architecture</li>
+                                  <li>Bootstrap</li>
+                                </ul>
+                              </p>
+                              <time datetime="2017-11-16">16 Nov 2017</time>
+                            </div>
+                          </div>
+                          <footer class="card-footer">
+                            <a href="https://github.com/Venablena/Tracker-front-end" class="card-footer-item">View on Github</a>
+                              <a href="http://putapinonit.surge/sh" class="card-footer-item">View site</a>
+                          </footer>
+                        </div>
+                    </article>
+                  </div>
+                  <div class="tile is-parent">
+                    <article class="tile is-child notification is-white is-paddingless">
+                      <div class="card">
+                        <div class="tile-header notification is-dark">
+                          <p class="title">NodeJS & PostgreSQL</p>
+                          <p class="subtitle">"Put a Pin on It" -tracker backend</p>
+                        </div>
+                          <div class="content">
+                            <div class="card-image">
+                              <img src="img/screenshot-tracker-stack.jpg" alt="Screenshot tech stack">
+                            </div>
+                            <div class="card-content">
+                              <p>
+                                Data gathered from a wearable clicker button goes through an Android app and a Google Sheet IFTTT recipe to a PostgreSQL database.
+                              </p>
+                              <time datetime="2017-11-16">16 Nov 2017</time>
+                            </div>
+                          </div>
+                          <footer class="card-footer">
+                            <a href="https://github.com/Venablena/Tracker-server" class="card-footer-item">View on Github</a>
+                          </footer>
+                        </div>
+                    </article>
+                  </div>
+                </div>
               </div>
             </div>
-
           </div>
           <div class="tile is-parent">
-            <article class="tile is-child notification is-dark is-paddingless">
-              <div class="tile-header">
-                <p class="title">JavaScript</p>
-                <p class="subtitle">Calendar app</p>
-              </div>
-                <div class="content">
+            <article class="tile is-child notification is-warning">
+              <p class="title">About Me</p>
+                <div class="content is-size-5">
+                  <p class="subtitle is-size-4">Fullstack JavaScript web developer:</p>
+                  <ul>
+                    <li>CSS, HTML, JavaScript</li>
+                    <li>Git, GitHub, JIRA</li>
+                    <li>NodeJS, CSS frameworks, common CMS's, databases</li>
+                    <li>Agile workflow</li>
+                    <li>Test-driven development</li>
+                    <li>Currently studying frontend frameworks (React)</li>
+                  </ul>
+                  <p>UX/UI design and research experience in wearable and mobile technologies</p>
+                  <p>Background in product design & education</p>
+                </div>
+            </article>
+          </div>
+        </div>
+            <div class="tile is-ancestor">
+              <div class="tile is-6 is-parent">
+                <article class="tile notification is-white is-child is-paddingless">
                   <div class="card">
-                    <div class="card-image">
-                      <!-- <figure class="image is-4by3"> -->
-                        <img src="img/Screenshot_calendar.png" alt="Screenshot nameplate">
-                      <!-- </figure> -->
+                    <div class="tile-header notification is-dark">
+                      <p class="title">JavaScript</p>
+                      <p class="subtitle">Calendar app</p>
                     </div>
-                    <div class="card-content">
-                      <!-- <div class="content"> -->
-                        <ul class="is-size-5">
+
+                    <div class="content">
+                      <div class="card-image">
+                          <img src="img/Screenshot_calendar.png" alt="Screenshot calendar">
+                      </div>
+
+                      <div class="card-content">
+                        <ul>
                           <li>Dynamically draws and populates calendar cells</li>
-                          <li>Sorts data in a format accessible by year/month/date </li>
                           <li>Uses local storage to save and load data</li>
-                          <li>Has responsive cell structure</li>
-                          <li>Built with all vanilla, old school JS</li>
+                          <li>Has a responsive cell structure</li>
                         </ul>
                         <time datetime="2017-10-6">6 Oct 2017</time>
-                      <!-- </div> -->
+                      </div>
                     </div>
                     <footer class="card-footer">
                       <a href="https://github.com/Venablena/SFZC_Calendar" class="card-footer-item">View on Github</a>
                       <a href="http://venablena-calendar.surge.sh/" class="card-footer-item">View site</a>
                     </footer>
                   </div>
+                </article>
+              </div>
+              <div class="tile is-vertical">
+                <div class="tile is-parent">
+                  <article class="tile is-child notification is-white is-paddingless">
+                    <div class="tile-header notification is-dark">
+                      <p class="title">JavaScript, CSS, HTML</p>
+                      <p class="subtitle">"Write it down"</p>
+                    </div>
+                    <div class="content">
+                      <div class="card-content">
+                        <p>Fullstack app that allows users to write, edit and delete notes that appear on a randomized background with a custom font. Built with Bulma CSS framework.</p>
+                        <time datetime="2017-11-23">23 Nov 2017</time>
+                      </div>
+                    </div>
+
+                    <footer class="card-footer">
+                      <a href="https://github.com/Venablena/Blog" class="card-footer-item">View on Github</a>
+                      <a href="http://venablena.write-it-down.surge.sh/" class="card-footer-item">View site</a>
+                    </footer>
+                  </article>
                 </div>
+                <div class="tile is-parent">
+                  <article class="tile is-child box">
+                    <p class="title">Ten</p>
+                    <p class="subtitle">Subtitle</p>
+                    <div class="content">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+                    </div>
+                  </article>
+                </div>
+              </div>
+
+            </div>
+
+
+
+
+        <!-- <div class="tile is-ancestor">
+          <div class="tile is-parent">
+            <article class="tile is-child box">
+              <p class="title">Twelve</p>
+              <p class="subtitle">Subtitle</p>
+              <div class="content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut.</p>
+              </div>
             </article>
           </div>
-        </div>
+          <div class="tile is-parent is-6">
+            <article class="tile is-child box">
+              <p class="title">Thirteen</p>
+              <p class="subtitle">Subtitle</p>
+              <div class="content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+              </div>
+            </article>
+          </div>
+          <div class="tile is-parent">
+            <article class="tile is-child box">
+              <p class="title">Fourteen</p>
+              <p class="subtitle">Subtitle</p>
+              <div class="content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut.</p>
+              </div>
+            </article>
+          </div>
+        </div> -->
+
       </section>
     </main>
   </body>
