@@ -22,7 +22,7 @@
         </div>
       </section>
 
-      <section>
+      <!-- <section>
         <nav class="tabs is-centered" >
           <ul>
             <li class="is-active"><a href="#">All</a></li>
@@ -30,7 +30,7 @@
             <li><a href="#">JavaScript</a></li>
           </ul>
         </nav>
-      </section>
+      </section> -->
 
       <section class="section"> <!-- tiles -->
         <div class="tile is-ancestor">
@@ -76,6 +76,7 @@
                                   <li>Bootstrap</li>
                                 </ul>
                               </p>
+                              <br>
                               <time datetime="2017-11-16">16 Nov 2017</time>
                             </div>
                           </div>
@@ -101,6 +102,7 @@
                               <p>
                                 Data gathered from a wearable clicker button goes through an Android app and a Google Sheet IFTTT recipe to a PostgreSQL database.
                               </p>
+                              <br>
                               <time datetime="2017-11-16">16 Nov 2017</time>
                             </div>
                           </div>
@@ -114,24 +116,36 @@
               </div>
             </div>
           </div>
+
           <div class="tile is-parent">
-            <article class="tile is-child notification is-warning">
-              <p class="title">About Me</p>
-                <div class="content is-size-5">
-                  <p class="subtitle is-size-4">Fullstack JavaScript web developer:</p>
-                  <ul>
-                    <li>CSS, HTML, JavaScript</li>
-                    <li>Git, GitHub, JIRA</li>
-                    <li>NodeJS, CSS frameworks, common CMS's, databases</li>
-                    <li>Agile workflow</li>
-                    <li>Test-driven development</li>
-                    <li>Currently studying frontend frameworks (React)</li>
-                  </ul>
-                  <p>UX/UI design and research experience in wearable and mobile technologies</p>
-                  <p>Background in product design & education</p>
+            <article class="tile is-child notification is-white is-paddingless">
+              <div class="card">
+                <div class="tile-header notification is-dark">
+                  <p class="title">CSS, HTML, JavaScript</p>
+                  <p class="subtitle">Ecommerce template</p>
                 </div>
+                <div class="content">
+                  <div class="card-image">
+                    <img src="img/gardenshoppe.jpg" alt="gardenshoppe">
+                  </div>
+                  <div class="card-content">
+                    <p>
+                      <ul>
+                        <li>Filtering and dynamically generating data</li>
+                        <li>Group project</li>
+                      </ul>
+                    </p>
+                    <br>
+                    <time datetime="2017-09-28">28 Sep 2017</time>
+                  </div>
+                  <footer class="card-footer">
+                    <a href="https://github.com/Venablena/ecommerce-project" class="card-footer-item">View on Github</a>
+                  </footer>
+                </div>
+              </div>
             </article>
           </div>
+
         </div>
             <div class="tile is-ancestor">
               <div class="tile is-6 is-parent">
@@ -153,6 +167,7 @@
                           <li>Uses local storage to save and load data</li>
                           <li>Has a responsive cell structure</li>
                         </ul>
+                        <br>
                         <time datetime="2017-10-6">6 Oct 2017</time>
                       </div>
                     </div>
@@ -163,59 +178,55 @@
                   </div>
                 </article>
               </div>
+
               <div class="tile">
                 <div class="tile is-parent">
-                  <article class="tile is-child notification is-white is-paddingless">
+                  <div class="tile is-child notification is-white is-paddingless">
+                  <div class="card">
                     <div class="tile-header notification is-dark">
                       <p class="title">Fullstack Ajax App</p>
                       <p class="subtitle">"Write it down"</p>
                     </div>
-                    <div class="content">
-                      <div class="card-content">
-                        <p>Users can write, edit and delete notes that appear on a randomized background with a custom font. Stores data in JSON object. Built with Bulma CSS framework.</p>
-                        <time datetime="2017-11-23">23 Nov 2017</time>
-                      </div>
-                    </div>
-
-                    <footer class="card-footer">
-                      <a href="https://github.com/Venablena/Blog" class="card-footer-item">View on Github</a>
-                      <a href="http://venablena.write-it-down.surge.sh/" class="card-footer-item">View site</a>
-                    </footer>
-                  </article>
-                </div>
-
-                <div class="tile is-parent">
-                  <article class="tile is-child notification is-white is-paddingless">
-                    <div class="card">
-                      <div class="tile-header notification is-dark">
-                        <p class="title">CSS, HTML, JavaScript</p>
-                        <p class="subtitle">Ecommerce template</p>
-                      </div>
                       <div class="content">
                         <div class="card-image">
-                          <img src="img/gardenshoppe.jpg" alt="gardenshoppe">
+                          <img src="img/screenshot_write.jpg" alt="screenshot write">
                         </div>
                         <div class="card-content">
-                          <ul>
-                            <li>Filtering and dynamically generating data</li>
-                            <li>Group project</li>
-                          </ul>
-                          <time datetime="2017-09-28">28 Sep 2017</time>
+                          <p>Users can write, edit and delete notes that appear on a randomized background with a custom font. Stores data in JSON object. Built with Bulma CSS framework.</p>
+                          <br>
+                          <time datetime="2017-11-23">23 Nov 2017</time>
                         </div>
                       </div>
-                      <footer class="card-footer">
-                        <a href="https://github.com/Venablena/ecommerce-project" class="card-footer-item">View on Github</a>
-                      </footer>
-                    </div>
-                  </article>
 
+                      <footer class="card-footer">
+                        <a href="https://github.com/Venablena/Blog" class="card-footer-item">View on Github</a>
+                        <a href="http://venablena.write-it-down.surge.sh/" class="card-footer-item">View site</a>
+                      </footer>
+
+                    </div>
+                  </div>
                 </div>
+                <div class="tile is-parent">
+                  <article class="tile is-child notification is-warning">
+                    <p class="title">About Me</p>
+                      <div class="content is-size-6">
+                        <p class="subtitle is-size-5">Fullstack JavaScript web developer:</p>
+                        <ul>
+                          <li>CSS, HTML, JavaScript</li>
+                          <li>Git, GitHub, JIRA</li>
+                          <li>NodeJS, CSS frameworks, common CMS's, databases</li>
+                          <li>Agile workflow</li>
+                          <li>Test-driven development</li>
+                        </ul>
+                        <p>UX/UI design and research experience in wearable and mobile technologies</p>
+                        <p>Background in product design & education</p>
+                      </div>
+                  </article>
+                </div>
+
 
               </div>
             </div>
-
-
-
 
         <!-- <div class="tile is-ancestor">
           <div class="tile is-parent">

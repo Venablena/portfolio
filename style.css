@@ -40,10 +40,13 @@ nav ul :first-child::after {
 .card-footer {
   background-color: LightSeaGreen;
   color: white;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
 }
 
 .card-footer :hover {
-  background-color: LightGreen;
+  background-color: #42ddd4;
 }
 
 .card-footer a {
@@ -51,11 +54,7 @@ nav ul :first-child::after {
   font-weight: bolder;
 }
 
-/*.tile-header {
-  padding: 1.25rem;
-}*/
-
 .card {
   height: 100%;
-  /*position: relative;*/
+  position: relative;
 }
